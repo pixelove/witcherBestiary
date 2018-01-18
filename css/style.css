@@ -10,7 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-image: linear-gradient(to right, rgba(36, 36, 36, 0.93), rgba(14, 14, 14, 0.93)), url("../images/crone.jpg");
+  background-image: linear-gradient(to right, rgba(36, 36, 36, 0.93), rgba(14, 14, 14, 0.93)), url("../images/base_background.jpg");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -27,18 +27,17 @@ body {
   overflow-x: hidden; }
 
 .top {
-  position: relative;
-  top: -4rem;
+  position: fixed;
+  top: 2rem;
   margin: 0 5rem; }
 
 .top__logo-container {
   position: absolute;
-  top: 2rem;
   left: 2rem; }
 
 .top__menu-container {
   position: absolute;
-  top: 3rem;
+  top: 1rem;
   right: 2rem; }
 
 .navigation li {
@@ -65,23 +64,57 @@ h2 {
   color: #9c9e91;
   font-size: 3.4rem; }
 
-a {
+.monsters a {
   text-decoration: none;
-  color: #f3f3f3; }
+  color: #f3f3f3;
+  display: block;
+  width: 100%;
+  height: 2.8rem; }
 
 a:hover {
   text-decoration: none;
   color: #9c9e91; }
 
+*:focus {
+  outline: none; }
+
 .card {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 20vw;
   word-wrap: break-word;
   background-color: transparent;
   background-clip: border-box;
   border: none; }
+
+#monsterModal .modal-dialog {
+  width: 100vw;
+  margin: 0;
+  padding: 0; }
+
+.modal-content {
+  min-height: 100%;
+  border-radius: 0;
+  background-image: linear-gradient(to right, rgba(36, 36, 36, 0.93), rgba(14, 14, 14, 0.93)), url(../images/monsters_backgrounds/crones.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh; }
+
+.full-screen {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  top: 0;
+  left: 0; }
+
+#cite {
+  padding-bottom: 3rem;
+  font-style: italic; }
+
+#description {
+  margin: 5rem; }
 
 @media (min-width: 768px) {
   .card-columns {

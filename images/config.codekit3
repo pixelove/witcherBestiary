@@ -9,15 +9,15 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/crone.jpg": {
+	"\/base_background.jpg": {
 		"ft": 16384,
-		"iS": 190358,
+		"iS": 178674,
 		"oA": 0,
-		"oAP": "\/crone.jpg",
-		"oF": 1,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 14
+		"oAP": "\/base_background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/logo.png": {
 		"ft": 32768,
@@ -28,6 +28,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/monsters_backgrounds\/bear.jpg": {
+		"ft": 16384,
+		"iS": 114511,
+		"oA": 0,
+		"oAP": "\/monsters_backgrounds\/bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/monsters_backgrounds\/bigBadWolf.jpg": {
+		"ft": 16384,
+		"iS": 163594,
+		"oA": 0,
+		"oAP": "\/monsters_backgrounds\/bigBadWolf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/monsters_backgrounds\/crones.jpg": {
+		"ft": 16384,
+		"iS": 45296,
+		"oA": 0,
+		"oAP": "\/monsters_backgrounds\/crones.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/spacing.png": {
